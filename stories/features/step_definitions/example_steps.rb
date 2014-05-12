@@ -38,4 +38,5 @@ Then(/^I see the username displayed on the next page$/) do
   @browser.window(:title => /Forms action page/).use do
     @browser.text.should include "user=A+username"
   end
+  @browser.close
 end
