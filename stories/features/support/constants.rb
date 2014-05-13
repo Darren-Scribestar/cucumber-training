@@ -1,0 +1,1 @@
+HTML_DIR = '/Users/Dazzla/Work/Training/html'
